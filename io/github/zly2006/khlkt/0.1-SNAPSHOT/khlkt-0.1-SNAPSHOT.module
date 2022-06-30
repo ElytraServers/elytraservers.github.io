@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.zly2006",
+    "module": "khlkt",
+    "version": "0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khlkt-0.1-SNAPSHOT.jar",
+          "url": "khlkt-0.1-SNAPSHOT.jar",
+          "size": 183011,
+          "sha512": "0db599237e9f17cc4fd94557b1a481a7652aa43860c98f84a2f7782b40c2dabe448c0b77d36cf03ee0cfbfc772f5c1da686a055e1404f26936de4257d33dfc5e",
+          "sha256": "d7d5a03f862ab45ae37813607dd82b6123172c455cd8e377f4d8d4bd759128d9",
+          "sha1": "a0ef9b26e3481601c6f29240419df56f78628251",
+          "md5": "ae5505ef27e46d4a5e3db3d43c8bf79c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "io.javalin",
+          "module": "javalin",
+          "version": {
+            "requires": "4.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "khlkt-0.1-SNAPSHOT.jar",
+          "url": "khlkt-0.1-SNAPSHOT.jar",
+          "size": 183011,
+          "sha512": "0db599237e9f17cc4fd94557b1a481a7652aa43860c98f84a2f7782b40c2dabe448c0b77d36cf03ee0cfbfc772f5c1da686a055e1404f26936de4257d33dfc5e",
+          "sha256": "d7d5a03f862ab45ae37813607dd82b6123172c455cd8e377f4d8d4bd759128d9",
+          "sha1": "a0ef9b26e3481601c6f29240419df56f78628251",
+          "md5": "ae5505ef27e46d4a5e3db3d43c8bf79c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "khlkt-0.1-SNAPSHOT-javadoc.jar",
+          "url": "khlkt-0.1-SNAPSHOT-javadoc.jar",
+          "size": 116016,
+          "sha512": "717715ea52a3565c3b72a318f614ecf0335432e6dbd86cf01c76ce7cb1818caf1ca64dc04fa1d84d7e2c8f2302aacce51b4eaa7df08f540bf181f65e0601aaf7",
+          "sha256": "3a045787979a1c953cc6aeae9fa3b2afcf06a61ea300ea8cc653c8fd548bdf5e",
+          "sha1": "4ecf22163c8305b7175424e57a2379e72ac83c92",
+          "md5": "5d5d00151e094ce7a7938d7177170c4c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "khlkt-0.1-SNAPSHOT-sources.jar",
+          "url": "khlkt-0.1-SNAPSHOT-sources.jar",
+          "size": 39894,
+          "sha512": "b9ed0481afc0edb6c0fea4130d22bbf3a63e9f9cb7e5bfb9b996e93e5a1d677e4c5fad7c7762ee39a281e2bd67f36f84f3c087c2f6e8bc0cb637108dfecec734",
+          "sha256": "f808889d3d3f4746cb7ce9e7c6c0091b3c41cb208e5376b5b245fe4c248cc711",
+          "sha1": "63dba04320095293ae1d0d9994ec4781930b36ec",
+          "md5": "660fcce4387bd4877d878ad3fd08eba0"
+        }
+      ]
+    }
+  ]
+}
